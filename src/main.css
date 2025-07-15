@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Ragnear";
+  src: url("../assets/Ragnear.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 1. For most WebKit‑based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* 2. For Firefox */
+* {
+  scrollbar-width: none; /* hides scrollbar */
+  scrollbar-color: transparent; /* optional, just in case */
+}
+
+/* 3. For IE 10+ */
+* {
+  -ms-overflow-style: none; /* hides scrollbar in IE/Edge legacy */
+}
