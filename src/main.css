@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Ragnear";
-  src: url("../assets/Ragnear.ttf") format("truetype");
+  src: url("/fonts/Ragnear.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
